@@ -1,0 +1,11 @@
+.heading {
+	padding:10px 0;
+	position:fixed;
+	top:0;
+	background-color:inherit;
+	border-bottom:solid 1px #EFEFEF;
+}
+
+body {
+	margin-top:100px;
+}
