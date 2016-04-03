@@ -9,3 +9,23 @@
 body {
 	margin-top:100px;
 }
+
+.content {
+   transition:all 1s ease;
+}
+
+.content:hover {
+   color:darkred;
+}
+
+.icon {
+   display:none;
+   position:fixed;
+   top:20px;
+   right:50px;
+   cursor:pointer;
+}
+
+.icon img {
+   width:30px;
+}

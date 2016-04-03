@@ -14,6 +14,22 @@ $(function(){
 	$section_template.remove();
 });
 
+$(initializeBackToTop);
+
+function initializeBackToTop() {
+   $icon = $('.icon');
+   $icon.click(function() {
+	$('html, body').animate({ scrollTop: 0 }, 600);
+    	return false;
+   });
+
+   $(window).scroll(function() {
+	window.scrollY == 0 ? $icon.hide(600) : $icon.show(600);
+   });
+}
+
+
+
 var content = [
     {
     	title:"Wolfram's Dirge",
